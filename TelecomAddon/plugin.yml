@@ -1,0 +1,9 @@
+name: Telecom26Fixes
+version: 1.0.6
+main: com.dbteku.telecomfix.TelecomFixPlugin
+api-version: '26.2'
+depend: [Telecom]
+commands:
+  ct:
+    description: Create a Telecom station/network
+    usage: /ct <sieć>
